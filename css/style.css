@@ -10,6 +10,38 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header{
+  border-bottom: 1px solid #E7E9FC;
+  
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav{
+  display: flex;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -20,6 +52,12 @@ ul {
   color: #4d5ae5;
   text-transform: uppercase;
 }
+
+.logo-link{
+padding: 24px 0;
+margin-right: 76px;
+}
+
 .logo-span {
   font-size: 18px;
   line-height: 1.17;
@@ -30,9 +68,17 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+
 }
 .list-link {
   color: #2e2f42;
+  display: block;
+  padding: 24px 0;
+
 }
 .list-link:hover,
 .list-link:focus {
@@ -44,9 +90,22 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+  margin-left: auto;
+  ;
+
+  
+
+}
+.adress-list{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  
 }
 .list-adress-link {
   color: #434455;
+  padding: 24px 0;
+  display: block;
 }
 .list-adress-link:hover,
 .list-adress-link:focus {
@@ -55,14 +114,27 @@ ul {
 .hero {
   color: #ffffff;
   background-color: #2e2f42;
+  padding: 188px 0;
 }
+
+
+
 .hero-header {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+margin: 0 auto 48px;
+max-width: 496px;
+display: block;
 }
+
+ 
+
+
+  
+
 .hero-button {
   color: #ffffff;
   background-color: #4d5ae5;
@@ -72,6 +144,11 @@ ul {
   letter-spacing: 0.04em;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  display: block;
+  margin: 0 auto;
+ 
+  
+  
 }
 
 .hero-button:hover,
@@ -85,6 +162,16 @@ ul {
   text-decoration-color: #4d5ae5;
 }
 
+.container-feature{
+  display: flex;
+  gap: 24px;
+  padding: 120px 0;
+}
+
+.feature-item{
+  width: calc((100% - 72px) / 4);
+
+}
 .list-sectiontwo {
   color: #434455;
   font-weight: 400;
@@ -99,7 +186,11 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+ 
 }
+
+
 
 .text {
   color: #434455;
@@ -108,7 +199,15 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 32px;
+  padding-bottom: 32px;
+}
 .sectiondry {
   background-color: #f4f4fd;
 }
@@ -118,13 +217,72 @@ ul {
 }
 
 .headerzwei {
-  color: #2e2f42;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
+   
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+  }
+
+  .title{
+    font-weight: 700;
+font-size: 36px;
+
+
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+padding-top : 120px;
+margin-bottom: 72;
+  }
+
+  .container-portfolio{
+
+    display: flex;
+    gap: 24px;
+    row-gap: 48px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 72px;
+    padding-bottom: 120px;
+  }
+
+  .item-portfolio{
+    width: calc(100%-96px)/6;
+   
+  }
+
+
+  .pmtext{
+    margin-top: 8px;
+    padding-bottom: 32px;
+  }
+
+  
+  .border-team{
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+.div-portfolio{
+  display: flex;
+  align-items:flex-start;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 0;
+ 
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -134,10 +292,17 @@ ul {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
+  
+  
+}
+.inline{
+  display: inline-block;
 }
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  padding: 100px 0;
+
 }
 h2:hover,
 h2:focus {
@@ -154,4 +319,6 @@ h2:focus {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
+  margin-top: 16px;
 }
