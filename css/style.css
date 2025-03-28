@@ -218,12 +218,15 @@ display: block;
   margin-top: 32px;
   padding: 32px 0;
 }
+.ourteammargin{
+  margin-bottom: 72px;
+}
 .sectiondry {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
 .hteam {
-  margin-bottom: 72px;
+ 
   text-align: center;
 }
 
