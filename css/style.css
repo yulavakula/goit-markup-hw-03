@@ -209,19 +209,27 @@ display: block;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.card{
+.card {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 8px;
   margin-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0;
 }
 .sectiondry {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+.hteam {
+  margin-bottom: 72px;
+  text-align: center;
 }
 
+.centerp{
+  text-align: center;
+}
 .list-li {
   background-color: #ffffff;
 }
