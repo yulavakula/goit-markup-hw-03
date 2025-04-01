@@ -216,6 +216,7 @@ padding: 32px 0;
 
 .sectiondry {
  padding: 120px 0;
+ background-color:#f4f4fd; ;
 }
 .hteam {
  
@@ -272,7 +273,9 @@ margin-bottom: 72px;}
 
 
   
-
+  .section-portfolio{
+    padding: 120px 0;
+  }
   
   
   
