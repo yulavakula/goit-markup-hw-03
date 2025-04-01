@@ -175,7 +175,7 @@ display: block;
 .container-feature{
   display: flex;
   gap: 24px;
-  padding: 120px 0;
+  
 }
 
 .feature-item{
@@ -210,20 +210,12 @@ display: block;
   letter-spacing: 0.02em;
 }
 .card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
-  margin-top: 32px;
-  padding: 32px 0;
+padding: 32px 0;
 }
-.ourteammargin{
-  margin-bottom: 72px;
-}
+
+
 .sectiondry {
-  background-color: #f4f4fd;
-  padding: 120px 0;
+ padding: 120px 0;
 }
 .hteam {
  
@@ -235,6 +227,7 @@ display: block;
 }
 .list-li {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .headerzwei {
@@ -253,28 +246,23 @@ display: block;
   }
 
   .title{
-    font-weight: 700;
+font-weight: 700;
 font-size: 36px;
-
-
 line-height: 1.11111;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-padding-top : 120px;
-margin-bottom: 72;
-  }
+margin-bottom: 72px;}
+
+
 
   .container-portfolio{
 
     display: flex;
     gap: 24px;
     row-gap: 48px;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 72px;
-    padding-bottom: 120px;
+      
   }
 
   .item-portfolio{
@@ -283,23 +271,12 @@ margin-bottom: 72;
   }
 
 
-  .pmtext{
-    margin-top: 8px;
-    padding-bottom: 32px;
-  }
+  
 
   
-  .border-team{
-    border-radius: 0px 0px 4px 4px;
-  }
+  
   
 .div-portfolio{
-  display: flex;
-  align-items:flex-start;
-  flex-direction: column;
-  gap: 8px;
-  margin-top: 0;
- 
   padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -343,5 +320,4 @@ h2:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-top: 16px;
 }
